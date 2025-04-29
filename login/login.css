@@ -1,0 +1,111 @@
+/* Reset mặc định */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Khung login chính */
+.login {
+    background: white;
+    padding: 40px 30px;
+    border-radius: 16px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.login h2 {
+    text-align: center;
+    margin-bottom: 24px;
+    color: #333;
+}
+
+/* Input field */
+.input-field {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-field input {
+    width: 100%;
+    padding: 14px 12px;
+    padding-left: 14px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    outline: none;
+    transition: border-color 0.3s;
+    font-size: 15px;
+}
+
+.input-field input:focus {
+    border-color: #5e9cff;
+}
+
+.input-field label {
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    background: white;
+    padding: 0 6px;
+    font-size: 13px;
+    color: #777;
+}
+
+/* Forgot password */
+.forgot-pass-link {
+    display: block;
+    text-align: right;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #5e9cff;
+    text-decoration: none;
+}
+
+.forgot-pass-link:hover {
+    text-decoration: underline;
+}
+
+/* Button */
+button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    border: none;
+    background-color: #5e9cff;
+    color: white;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button[type="submit"]:hover {
+    background-color: #417dd3;
+}
+
+/* Bottom link */
+.bottom-link {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    color: #555;
+}
+
+.bottom-link a {
+    color: #5e9cff;
+    text-decoration: none;
+    margin-left: 4px;
+}
+
+.bottom-link a:hover {
+    text-decoration: underline;
+}
